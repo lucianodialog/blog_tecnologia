@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Footer from './components/Footer'
+import Card from './components/Card'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Card />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
