@@ -1,0 +1,28 @@
+.Banner {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#img-banner img {
+    width: 100vh;
+}
+
+.title-banner, .paragraph-banner {
+    color: #1c1c1c;
+}
+
+.title-banner {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 2.8em;
+}
+
+.paragraph-banner {
+    position: relative;
+    font-size: 1.5em;
+    bottom: 123px;
+    left: 20px;
+    font-weight: bold;
+}
