@@ -1,0 +1,8 @@
+#sidebar {
+    flex: 1;
+}
+
+#anuncio img {
+    width: 100%;
+    object-fit: contain;
+}
