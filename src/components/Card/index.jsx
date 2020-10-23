@@ -50,7 +50,7 @@ const Card = () => {
                   <div class="news-posted-at">12 DEC 12</div>
                   <div class="news-comments">2</div>
                 </div>
-                
+               
                 <div class="news-title">
                   Lorem ipsum dolor sit amat velum
                 </div>
@@ -79,28 +79,28 @@ const Card = () => {
         </div>
       </section>
 
-      {/* <aside>
+      <aside>
 
-        <div class="widget">
-          <div class="widget-title">
-            <div class="widget-title-text">Departaments</div>
-            <div class="widget-title-bar"></div>
-          </div>
-          <div class="widget-body">
-            
-          </div>
-        </div>
+<div class="widget">
+  <div class="widget-title">
+    <div class="widget-title-text">Departaments</div>
+    <div class="widget-title-bar"></div>
+  </div>
+  <div class="widget-body">
+    
+  </div>
+</div>
 
-        <div class="widget">
-          <div class="widget-title">
-            <div class="widget-title-text">Make An Appointment</div>
-            <div class="widget-title-bar"></div>
-          </div>
-          <div class="widget-body">
-            
-          </div>
-        </div>
-      </aside> */}
+<div class="widget">
+  <div class="widget-title">
+    <div class="widget-title-text">Make An Appointment</div>
+    <div class="widget-title-bar"></div>
+  </div>
+  <div class="widget-body">
+    
+  </div>
+</div>
+</aside> 
     </div>
   </section>
   )

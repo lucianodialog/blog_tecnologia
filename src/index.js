@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Footer from './components/Footer'
 import Card from './components/Card'
-import App from './App';
+// import Sidebar from './components/Sidebar'
+import Menu from './components/Menu'
+import Banner from './components/Banner'
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Menu />
+    <Banner />
     <Card />
     <Footer />
   </React.StrictMode>,
