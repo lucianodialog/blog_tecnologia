@@ -1,5 +1,6 @@
 import React from "react"
 import './Card.css'
+import img from '../../img/img_banner.png'
 
 const Card = () => {
   return (
@@ -18,7 +19,9 @@ const Card = () => {
                   <div class="news-posted-at">12 DEC 12</div>
                   <div class="news-comments">2</div>
                 </div>
-                
+                <div className="news-thumbnail">
+                  <img src={img} alt=""/>
+                </div>
                 <div class="news-title">
                   Lorem ipsum dolor sit amat velum
                 </div>
@@ -34,7 +37,9 @@ const Card = () => {
                   <div class="news-posted-at">12 DEC 12</div>
                   <div class="news-comments">2</div>
                 </div>
-                
+                <div className="news-thumbnail">
+                  <img src={img} alt=""/>
+                </div>
                 <div class="news-title">
                   Lorem ipsum dolor sit amat velum
                 </div>
@@ -50,7 +55,9 @@ const Card = () => {
                   <div class="news-posted-at">12 DEC 12</div>
                   <div class="news-comments">2</div>
                 </div>
-               
+                <div className="news-thumbnail">
+                  <img src={img} alt=""/>
+                </div>
                 <div class="news-title">
                   Lorem ipsum dolor sit amat velum
                 </div>
@@ -66,7 +73,9 @@ const Card = () => {
                   <div class="news-posted-at">12 DEC 12</div>
                   <div class="news-comments">2</div>
                 </div>
-                
+                <div className="news-thumbnail">
+                  <img src={img} alt=""/>
+                </div>
                 <div class="news-title">
                   Lorem ipsum dolor sit amat velum
                 </div>
